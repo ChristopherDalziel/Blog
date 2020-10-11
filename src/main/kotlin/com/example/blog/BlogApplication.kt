@@ -6,7 +6,10 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class BlogApplication
 
+fun test() {
+	println("test")
+}
+
 fun main(args: Array<String>) {
 	runApplication<BlogApplication>(*args)
-	setBannerMode(Banner.Mode.OFF)
 }
