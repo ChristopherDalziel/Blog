@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue
 import javax.persistence.ManyToOne
 
 // Marking a class as an entity means it will have the mapping of an SQLite table in the database.
+// "Primary constructor concise syntax"
 
 @Entity
 class Article(
